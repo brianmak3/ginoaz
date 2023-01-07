@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/user/.nvm/versions/node/v16.13.1/bin/node /usr/local/bin/yarn add bordy-parser express mongoose cors
+
+PATH: 
+  /Users/user/.amplify/bin:/Users/user/.nvm/versions/node/v16.13.1/bin:/opt/homebrew/bin:/Users/user/opt/anaconda3/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/user/Library/Android/sdk/emulator:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/tools/bin:/Users/user/Library/Android/sdk/platform-tools:/usr/local/go/bin:/bin:/Users/user/Downloads/flutter/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bordy-parser: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "sneakers",
+    "version": "1.0.0",
+    "description": "Server for sneakers app",
+    "main": "index.js",
+    "scripts": {
+      "test": "nodemon index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/brianmak3/ginoaz.git"
+    },
+    "author": "Brian Henry",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/brianmak3/ginoaz/issues"
+    },
+    "homepage": "https://github.com/brianmak3/ginoaz#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
