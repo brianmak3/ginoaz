@@ -30,7 +30,8 @@ const SneakerSchema = new mongoose.Schema({
         goat: {},
         stadiumGoods: {},
         flightClub: {}
-    }
+    },
+    createdAt:{type:Date, default:new Date()}
 });
 
 const Sneaker = mongoose.model('sneaker', SneakerSchema);

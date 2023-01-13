@@ -4,7 +4,7 @@ const sneaks = new SneaksAPI();
 const _ = require('lodash')
 
 const getSneakersData = () => {
-    sneaks.getMostPopular(100, (err, products) => {
+    getFn = () => sneaks.getMostPopular(100, (err, products) => {
         if (err)
             console.log("err")
         else {
@@ -35,6 +35,10 @@ const getSneakersData = () => {
             })
         }
     })
+    setInterval(() => {
+        getFn()
+    }, 1000 * 60 * 60 * 24);
+
 }
 module.exports = {
     getSneakersData
