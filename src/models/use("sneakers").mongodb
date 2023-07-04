@@ -1,0 +1,2 @@
+use("sneakers")
+db.sneakers.find().sort({createdAt:-1})
